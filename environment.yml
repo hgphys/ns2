@@ -1,0 +1,19 @@
+name: ns_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24,<2.0
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - networkx>=3.1
+  - scipy>=1.10
+  - seaborn
+  - requests
+  - beautifulsoup4
+  - openpyxl
+  - jupyter
+  - jupyterlab
+  - nbconvert
+  - ipython

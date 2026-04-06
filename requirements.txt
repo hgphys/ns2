@@ -1,0 +1,21 @@
+# Network Science I/II - Requirements
+# Usage: pip install -r requirements.txt
+
+# Core Packages ---------------------------------------------------------------
+numpy>=1.24,<2.0        # numpy 2.0 has breaking API changes
+pandas>=2.0
+matplotlib>=3.7
+networkx>=3.1
+scipy>=1.10
+seaborn
+requests
+beautifulsoup4
+
+# Excel -----------------------------------------------------------------------
+openpyxl
+
+# Jupyter Environment ---------------------------------------------------------
+jupyter
+jupyterlab
+nbconvert
+ipython
