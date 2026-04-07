@@ -65,7 +65,7 @@ cd ns2
 ### 2. 仮想環境の作成
 
 ```bash
-conda env create -f environment.yml
+conda create -n ns_env python=3.11 -y
 ```
 
 ### 3. 仮想環境の有効化
@@ -75,6 +75,12 @@ conda activate ns_env
 ```
 
 プロンプトに `(ns_env)` と表示されれば OK です。
+
+### 4. 必要パッケージのインストール
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
@@ -92,6 +98,8 @@ ns2a_XX/
 ├── ns2a_XX_03.py       # 問題3用スクリプト（誤りを含む）
 └── data/               # データファイル（ある場合）
 ```
+
+> `data/`, `figs/` など空のフォルダには `.gitkeep` という空ファイルが入っています。これは Git で空フォルダを保持するための目印です。無視して構いません。
 
 ノートブック内で `.py` ファイルは以下のように実行できます。
 
