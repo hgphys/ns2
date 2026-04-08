@@ -197,3 +197,9 @@ conda remove --name ns_env --all
 ## License
 
 This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+---
+
+## AI 利用について
+
+本リポジトリの教材整備（README・ドキュメント・コード整理）には Claude (Anthropic) を補助的に活用しています。教材本体（演習課題・スクリプト・スライド）の設計と内容は担当教員が作成・監修しています。
